@@ -1,0 +1,1614 @@
+2019-04-04 15:24:31 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.1716dy.com/movie/index68888.html> (referer: https://www.1716dy.com/frim/index4-10.html)
+Traceback (most recent call last):
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/root/lezhangjian/scrapy_doubi/doubiyang/spiders/detail.py", line 30, in get_detail
+    detail_list.append(response.xpath('//dd[@class="clearfix"]/ul/li[3]/text()').extract()[0])
+IndexError: list index out of range
+2019-04-04 15:24:31 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.1716dy.com/movie/index68713.html> (referer: https://www.1716dy.com/frim/index4-10.html)
+Traceback (most recent call last):
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/root/lezhangjian/scrapy_doubi/doubiyang/spiders/detail.py", line 30, in get_detail
+    detail_list.append(response.xpath('//dd[@class="clearfix"]/ul/li[3]/text()').extract()[0])
+IndexError: list index out of range
+2019-04-04 15:24:32 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.1716dy.com/movie/index68814.html> (referer: https://www.1716dy.com/frim/index4-11.html)
+Traceback (most recent call last):
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/root/lezhangjian/scrapy_doubi/doubiyang/spiders/detail.py", line 30, in get_detail
+    detail_list.append(response.xpath('//dd[@class="clearfix"]/ul/li[3]/text()').extract()[0])
+IndexError: list index out of range
+2019-04-04 15:24:33 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.1716dy.com/movie/index34382.html> (referer: https://www.1716dy.com/frim/index4-11.html)
+Traceback (most recent call last):
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/root/lezhangjian/scrapy_doubi/doubiyang/spiders/detail.py", line 30, in get_detail
+    detail_list.append(response.xpath('//dd[@class="clearfix"]/ul/li[3]/text()').extract()[0])
+IndexError: list index out of range
+2019-04-04 15:24:33 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.1716dy.com/movie/index68856.html> (referer: https://www.1716dy.com/frim/index4-11.html)
+Traceback (most recent call last):
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/root/lezhangjian/scrapy_doubi/doubiyang/spiders/detail.py", line 30, in get_detail
+    detail_list.append(response.xpath('//dd[@class="clearfix"]/ul/li[3]/text()').extract()[0])
+IndexError: list index out of range
+2019-04-04 15:24:33 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.1716dy.com/movie/index62683.html> (referer: https://www.1716dy.com/frim/index4-11.html)
+Traceback (most recent call last):
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/root/lezhangjian/scrapy_doubi/doubiyang/spiders/detail.py", line 36, in get_detail
+    img_url = 'https://www.1716dy.comhttps://www.1716dy.com'+re.search(r'url\((.*?)\)',img_url).group(1)
+AttributeError: 'NoneType' object has no attribute 'group'
+2019-04-04 15:24:34 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.1716dy.com/movie/index69443.html> (referer: https://www.1716dy.com/frim/index4-12.html)
+Traceback (most recent call last):
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/root/lezhangjian/scrapy_doubi/doubiyang/spiders/detail.py", line 30, in get_detail
+    detail_list.append(response.xpath('//dd[@class="clearfix"]/ul/li[3]/text()').extract()[0])
+IndexError: list index out of range
+2019-04-04 15:24:35 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.1716dy.com/movie/index35943.html> (referer: https://www.1716dy.com/frim/index4-12.html)
+Traceback (most recent call last):
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/root/lezhangjian/scrapy_doubi/doubiyang/spiders/detail.py", line 36, in get_detail
+    img_url = 'https://www.1716dy.comhttps://www.1716dy.com'+re.search(r'url\((.*?)\)',img_url).group(1)
+AttributeError: 'NoneType' object has no attribute 'group'
+2019-04-04 15:24:35 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.1716dy.com/movie/index68705.html> (referer: https://www.1716dy.com/frim/index4-12.html)
+Traceback (most recent call last):
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/root/lezhangjian/scrapy_doubi/doubiyang/spiders/detail.py", line 30, in get_detail
+    detail_list.append(response.xpath('//dd[@class="clearfix"]/ul/li[3]/text()').extract()[0])
+IndexError: list index out of range
+2019-04-04 15:24:36 [scrapy.core.scraper] ERROR: Error processing {'detail': '["杰克·T·奥斯汀 尼古拉斯·凯奇", "约翰A·戴维斯", "美国", "动漫 喜剧片", "内详", "2006"]',
+ 'film_name': '别惹蚂蚁',
+ 'img_url': 'https://www.1716dy.comhttps://www.1716dy.com/uploads/allimg/201888/1273.jpg',
+ 'type': '动漫'}
+Traceback (most recent call last):
+  File "/var/www/envpro/lib/python3.5/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/root/lezhangjian/scrapy_doubi/doubiyang/pipelines.py", line 57, in process_item
+    self.conn.execute("insert into ma_filmdetail values('%s','%s','%s','%s')"%(film_name,type,detail_list,img_url))
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '别惹蚂蚁' for key 'PRIMARY'")
+2019-04-04 15:24:36 [scrapy.core.scraper] ERROR: Error processing {'detail': '["史蒂夫·卡瑞尔 杰森·席格尔", "皮艾尔·柯芬 克里斯·雷纳德", "美国", "动漫 喜剧片", "内详", "2010"]',
+ 'film_name': '神偷奶爸',
+ 'img_url': 'https://www.1716dy.comhttps://www.1716dy.com/uploads/allimg/160415/583e233451da6c07.gif',
+ 'type': '动漫'}
+Traceback (most recent call last):
+  File "/var/www/envpro/lib/python3.5/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/root/lezhangjian/scrapy_doubi/doubiyang/pipelines.py", line 57, in process_item
+    self.conn.execute("insert into ma_filmdetail values('%s','%s','%s','%s')"%(film_name,type,detail_list,img_url))
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '神偷奶爸' for key 'PRIMARY'")
+2019-04-04 15:24:42 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.1716dy.com/movie/index51848.html> (referer: https://www.1716dy.com/frim/index4-16.html)
+Traceback (most recent call last):
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/root/lezhangjian/scrapy_doubi/doubiyang/spiders/detail.py", line 30, in get_detail
+    detail_list.append(response.xpath('//dd[@class="clearfix"]/ul/li[3]/text()').extract()[0])
+IndexError: list index out of range
+2019-04-04 15:24:43 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.1716dy.com/movie/index31869.html> (referer: https://www.1716dy.com/frim/index4-16.html)
+Traceback (most recent call last):
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/root/lezhangjian/scrapy_doubi/doubiyang/spiders/detail.py", line 30, in get_detail
+    detail_list.append(response.xpath('//dd[@class="clearfix"]/ul/li[3]/text()').extract()[0])
+IndexError: list index out of range
+2019-04-04 15:24:44 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.1716dy.com/movie/index32821.html> (referer: https://www.1716dy.com/frim/index4-17.html)
+Traceback (most recent call last):
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/root/lezhangjian/scrapy_doubi/doubiyang/spiders/detail.py", line 30, in get_detail
+    detail_list.append(response.xpath('//dd[@class="clearfix"]/ul/li[3]/text()').extract()[0])
+IndexError: list index out of range
+2019-04-04 15:24:46 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.1716dy.com/movie/index68816.html> (referer: https://www.1716dy.com/frim/index4-18.html)
+Traceback (most recent call last):
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/root/lezhangjian/scrapy_doubi/doubiyang/spiders/detail.py", line 30, in get_detail
+    detail_list.append(response.xpath('//dd[@class="clearfix"]/ul/li[3]/text()').extract()[0])
+IndexError: list index out of range
+2019-04-04 15:24:52 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.1716dy.com/movie/index69359.html> (referer: https://www.1716dy.com/frim/index4-21.html)
+Traceback (most recent call last):
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/root/lezhangjian/scrapy_doubi/doubiyang/spiders/detail.py", line 30, in get_detail
+    detail_list.append(response.xpath('//dd[@class="clearfix"]/ul/li[3]/text()').extract()[0])
+IndexError: list index out of range
+2019-04-04 15:25:01 [scrapy.core.scraper] ERROR: Error processing {'detail': '["内详", "内详", "美国", "动漫", "内详", "2018"]',
+ 'film_name': '芭比之梦境奇遇记 英文版',
+ 'img_url': 'https://www.1716dy.comhttps://www.1716dy.com/uploads/allimg/201811/5f19c57f99c0e4d1.jpg',
+ 'type': '动漫'}
+Traceback (most recent call last):
+  File "/var/www/envpro/lib/python3.5/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/root/lezhangjian/scrapy_doubi/doubiyang/pipelines.py", line 57, in process_item
+    self.conn.execute("insert into ma_filmdetail values('%s','%s','%s','%s')"%(film_name,type,detail_list,img_url))
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '芭比之梦境奇遇记 英文版' for key 'PRIMARY'")
+2019-04-04 15:25:08 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.1716dy.com/movie/index69312.html> (referer: https://www.1716dy.com/frim/index4-30.html)
+Traceback (most recent call last):
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/root/lezhangjian/scrapy_doubi/doubiyang/spiders/detail.py", line 30, in get_detail
+    detail_list.append(response.xpath('//dd[@class="clearfix"]/ul/li[3]/text()').extract()[0])
+IndexError: list index out of range
+2019-04-04 15:25:14 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.1716dy.com/movie/index38511.html> (referer: https://www.1716dy.com/frim/index4-33.html)
+Traceback (most recent call last):
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/root/lezhangjian/scrapy_doubi/doubiyang/spiders/detail.py", line 30, in get_detail
+    detail_list.append(response.xpath('//dd[@class="clearfix"]/ul/li[3]/text()').extract()[0])
+IndexError: list index out of range
+2019-04-04 15:25:14 [scrapy.core.scraper] ERROR: Error processing {'detail': '["浪川大輔 野村勝人 朴ろ美", "林祐一郎", "日本", "动漫 科幻片", "日语对白", "2016"]',
+ 'film_name': '牙狼GARO2016',
+ 'img_url': 'https://www.1716dy.comhttps://www.1716dy.com/uploads/allimg/181119/3a20bd1b61caa566.jpg',
+ 'type': '动漫'}
+Traceback (most recent call last):
+  File "/var/www/envpro/lib/python3.5/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/root/lezhangjian/scrapy_doubi/doubiyang/pipelines.py", line 57, in process_item
+    self.conn.execute("insert into ma_filmdetail values('%s','%s','%s','%s')"%(film_name,type,detail_list,img_url))
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '牙狼GARO2016' for key 'PRIMARY'")
+2019-04-04 15:25:18 [scrapy.core.scraper] ERROR: Error processing {'detail': '["丰崎爱生", "山崎理", "日本", "动漫 爱情片", "日语对白", "2016"]',
+ 'film_name': '时间旅行少女',
+ 'img_url': 'https://www.1716dy.comhttps://www.1716dy.com/uploads/allimg/181126/e806d43ed4dd1b0e.jpg',
+ 'type': '动漫'}
+Traceback (most recent call last):
+  File "/var/www/envpro/lib/python3.5/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/root/lezhangjian/scrapy_doubi/doubiyang/pipelines.py", line 57, in process_item
+    self.conn.execute("insert into ma_filmdetail values('%s','%s','%s','%s')"%(film_name,type,detail_list,img_url))
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '时间旅行少女' for key 'PRIMARY'")
+2019-04-04 15:25:18 [scrapy.core.scraper] ERROR: Error processing {'detail': '["岛崎信长 兴津和幸 广濑裕也", "湖山祯崇", "日本", "动漫 剧情片", "日语对白", "2016"]',
+ 'film_name': '半田君传说',
+ 'img_url': 'https://www.1716dy.comhttps://www.1716dy.com/uploads/allimg/181126/3a086f627e496ce0.jpg',
+ 'type': '动漫'}
+Traceback (most recent call last):
+  File "/var/www/envpro/lib/python3.5/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/root/lezhangjian/scrapy_doubi/doubiyang/pipelines.py", line 57, in process_item
+    self.conn.execute("insert into ma_filmdetail values('%s','%s','%s','%s')"%(film_name,type,detail_list,img_url))
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '半田君传说' for key 'PRIMARY'")
+2019-04-04 15:25:32 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.1716dy.com/movie/index69117.html> (referer: https://www.1716dy.com/frim/index4-43.html)
+Traceback (most recent call last):
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/root/lezhangjian/scrapy_doubi/doubiyang/spiders/detail.py", line 30, in get_detail
+    detail_list.append(response.xpath('//dd[@class="clearfix"]/ul/li[3]/text()').extract()[0])
+IndexError: list index out of range
+2019-04-04 15:25:33 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.1716dy.com/movie/index69066.html> (referer: https://www.1716dy.com/frim/index4-43.html)
+Traceback (most recent call last):
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/root/lezhangjian/scrapy_doubi/doubiyang/spiders/detail.py", line 30, in get_detail
+    detail_list.append(response.xpath('//dd[@class="clearfix"]/ul/li[3]/text()').extract()[0])
+IndexError: list index out of range
+2019-04-04 15:25:36 [scrapy.core.scraper] ERROR: Error processing {'detail': '["玛丽昂·歌迪亚 菲烈·卡特林 让·雷谢夫 奥利弗·古尔迈 马克-安德烈·格隆丁", "克里斯汀·丹米尔斯 弗兰克·叶根吉", '
+           '"欧美", "喜剧片 动漫", "英语", "2015"]',
+ 'film_name': '阿薇尔与虚构世界',
+ 'img_url': 'https://www.1716dy.comhttps://www.1716dy.com/uploads/allimg/181114/ed9d54733fe6a982.jpg',
+ 'type': '动漫'}
+Traceback (most recent call last):
+  File "/var/www/envpro/lib/python3.5/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/root/lezhangjian/scrapy_doubi/doubiyang/pipelines.py", line 57, in process_item
+    self.conn.execute("insert into ma_filmdetail values('%s','%s','%s','%s')"%(film_name,type,detail_list,img_url))
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '阿薇尔与虚构世界' for key 'PRIMARY'")
+2019-04-04 15:25:42 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.1716dy.com/movie/index33823.html> (referer: https://www.1716dy.com/frim/index4-48.html)
+Traceback (most recent call last):
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/root/lezhangjian/scrapy_doubi/doubiyang/spiders/detail.py", line 30, in get_detail
+    detail_list.append(response.xpath('//dd[@class="clearfix"]/ul/li[3]/text()').extract()[0])
+IndexError: list index out of range
+2019-04-04 15:25:47 [scrapy.core.scraper] ERROR: Error processing {'detail': '["丹尼·罗维拉 米歇尔·珍娜", "安立奎·高德", "西班牙", "动漫", "西班牙语", "2016"]',
+ 'film_name': '夺旗2015',
+ 'img_url': 'https://www.1716dy.comhttps://www.1716dy.com/uploads/allimg/181113/46e63d990a65a441.jpg',
+ 'type': '动漫'}
+Traceback (most recent call last):
+  File "/var/www/envpro/lib/python3.5/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/root/lezhangjian/scrapy_doubi/doubiyang/pipelines.py", line 57, in process_item
+    self.conn.execute("insert into ma_filmdetail values('%s','%s','%s','%s')"%(film_name,type,detail_list,img_url))
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '夺旗2015' for key 'PRIMARY'")
+2019-04-04 15:25:50 [scrapy.core.scraper] ERROR: Error processing {'detail': '["Nicolaus von der Recke Sophie", "Arend Agthe", "欧美", "动漫 剧情片", '
+           '"德语对白", "2016"]',
+ 'film_name': '拯救拉斐',
+ 'img_url': 'https://www.1716dy.comhttps://www.1716dy.com/uploads/allimg/181114/fd8e51330f166b86.jpg',
+ 'type': '动漫'}
+Traceback (most recent call last):
+  File "/var/www/envpro/lib/python3.5/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/root/lezhangjian/scrapy_doubi/doubiyang/pipelines.py", line 57, in process_item
+    self.conn.execute("insert into ma_filmdetail values('%s','%s','%s','%s')"%(film_name,type,detail_list,img_url))
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '拯救拉斐' for key 'PRIMARY'")
+2019-04-04 15:25:52 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.1716dy.com/movie/index57321.html> (referer: https://www.1716dy.com/frim/index4-53.html)
+Traceback (most recent call last):
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/root/lezhangjian/scrapy_doubi/doubiyang/spiders/detail.py", line 30, in get_detail
+    detail_list.append(response.xpath('//dd[@class="clearfix"]/ul/li[3]/text()').extract()[0])
+IndexError: list index out of range
+2019-04-04 15:25:53 [scrapy.core.scraper] ERROR: Error processing {'detail': '["尼克·斯旺森 米拉·库尼斯 鲍勃·奥登科克 T·J·米勒 罗伯·里格尔", "Ross Shuman", "美国", "动漫 '
+           '喜剧片", "英语", "2015"]',
+ 'film_name': '地狱归来',
+ 'img_url': 'https://www.1716dy.comhttps://www.1716dy.com/uploads/allimg/181114/bebfe0282cc23efa.jpg',
+ 'type': '动漫'}
+Traceback (most recent call last):
+  File "/var/www/envpro/lib/python3.5/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/root/lezhangjian/scrapy_doubi/doubiyang/pipelines.py", line 57, in process_item
+    self.conn.execute("insert into ma_filmdetail values('%s','%s','%s','%s')"%(film_name,type,detail_list,img_url))
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '地狱归来' for key 'PRIMARY'")
+2019-04-04 15:25:54 [scrapy.core.scraper] ERROR: Error processing {'detail': '["刘纯燕 霍尊 金炜 辛迪·罗宾逊", "Vlad Barbe", "欧美", "动漫 剧情片", "英语", "2016"]',
+ 'film_name': '冰雪女王/冰雪皇后',
+ 'img_url': 'https://www.1716dy.comhttps://www.1716dy.com/uploads/allimg/201811/0e810643915c7ba9.jpg',
+ 'type': '动漫'}
+Traceback (most recent call last):
+  File "/var/www/envpro/lib/python3.5/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/root/lezhangjian/scrapy_doubi/doubiyang/pipelines.py", line 57, in process_item
+    self.conn.execute("insert into ma_filmdetail values('%s','%s','%s','%s')"%(film_name,type,detail_list,img_url))
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '冰雪女王/冰雪皇后' for key 'PRIMARY'")
+2019-04-04 15:25:55 [scrapy.core.scraper] ERROR: Error processing {'detail': '["高橋李依 菅原慎介 大橋彩香", "内详", "日本", "动漫", "日语", "2017"]',
+ 'film_name': '骑士&魔法',
+ 'img_url': 'https://www.1716dy.comhttps://www.1716dy.com/uploads/allimg/201811/5a6ea8919b1cab71.jpg',
+ 'type': '动漫'}
+Traceback (most recent call last):
+  File "/var/www/envpro/lib/python3.5/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/root/lezhangjian/scrapy_doubi/doubiyang/pipelines.py", line 57, in process_item
+    self.conn.execute("insert into ma_filmdetail values('%s','%s','%s','%s')"%(film_name,type,detail_list,img_url))
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '骑士&魔法' for key 'PRIMARY'")
+2019-04-04 15:25:56 [scrapy.core.scraper] ERROR: Error processing {'detail': '["尼古拉斯·凯奇 瑞安·雷诺兹", "克里斯·桑德斯 科克·德·米科", "美国", "动漫 喜剧片", "内详", '
+           '"2013"]',
+ 'film_name': '疯狂原始人',
+ 'img_url': 'https://www.1716dy.comhttps://www.1716dy.com/uploads/allimg/181112/ece49be534a04528.jpg',
+ 'type': '动漫'}
+Traceback (most recent call last):
+  File "/var/www/envpro/lib/python3.5/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/root/lezhangjian/scrapy_doubi/doubiyang/pipelines.py", line 57, in process_item
+    self.conn.execute("insert into ma_filmdetail values('%s','%s','%s','%s')"%(film_name,type,detail_list,img_url))
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '疯狂原始人' for key 'PRIMARY'")
+2019-04-04 15:25:56 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.1716dy.com/movie/index56775.html> (referer: https://www.1716dy.com/frim/index4-55.html)
+Traceback (most recent call last):
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/root/lezhangjian/scrapy_doubi/doubiyang/spiders/detail.py", line 30, in get_detail
+    detail_list.append(response.xpath('//dd[@class="clearfix"]/ul/li[3]/text()').extract()[0])
+IndexError: list index out of range
+2019-04-04 15:25:57 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.1716dy.com/movie/index68746.html> (referer: https://www.1716dy.com/frim/index4-56.html)
+Traceback (most recent call last):
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/root/lezhangjian/scrapy_doubi/doubiyang/spiders/detail.py", line 30, in get_detail
+    detail_list.append(response.xpath('//dd[@class="clearfix"]/ul/li[3]/text()').extract()[0])
+IndexError: list index out of range
+2019-04-04 15:25:57 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.1716dy.com/movie/index68368.html> (referer: https://www.1716dy.com/frim/index4-56.html)
+Traceback (most recent call last):
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/root/lezhangjian/scrapy_doubi/doubiyang/spiders/detail.py", line 30, in get_detail
+    detail_list.append(response.xpath('//dd[@class="clearfix"]/ul/li[3]/text()').extract()[0])
+IndexError: list index out of range
+2019-04-04 15:26:00 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.1716dy.com/movie/index63216.html> (referer: https://www.1716dy.com/frim/index4-57.html)
+Traceback (most recent call last):
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/root/lezhangjian/scrapy_doubi/doubiyang/spiders/detail.py", line 30, in get_detail
+    detail_list.append(response.xpath('//dd[@class="clearfix"]/ul/li[3]/text()').extract()[0])
+IndexError: list index out of range
+2019-04-04 15:26:03 [scrapy.core.scraper] ERROR: Error processing {'detail': '["", "田口清隆", "日本", "动漫 动作片 科幻片", "日语对白", "2016"]',
+ 'film_name': '欧布奥特曼',
+ 'img_url': 'https://www.1716dy.comhttps://www.1716dy.com/uploads/allimg/180928/01b90dedd2e52d1b.jpg',
+ 'type': '动漫'}
+Traceback (most recent call last):
+  File "/var/www/envpro/lib/python3.5/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/root/lezhangjian/scrapy_doubi/doubiyang/pipelines.py", line 57, in process_item
+    self.conn.execute("insert into ma_filmdetail values('%s','%s','%s','%s')"%(film_name,type,detail_list,img_url))
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '欧布奥特曼' for key 'PRIMARY'")
+2019-04-04 15:26:12 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.1716dy.com/movie/index58403.html> (referer: https://www.1716dy.com/frim/index4-63.html)
+Traceback (most recent call last):
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/root/lezhangjian/scrapy_doubi/doubiyang/spiders/detail.py", line 30, in get_detail
+    detail_list.append(response.xpath('//dd[@class="clearfix"]/ul/li[3]/text()').extract()[0])
+IndexError: list index out of range
+2019-04-04 15:26:14 [scrapy.core.scraper] ERROR: Error processing {'detail': '["内详", "内详", "欧美", "动漫 剧情片", "英语", "2015"]',
+ 'film_name': '先知',
+ 'img_url': 'https://www.1716dy.comhttps://www.1716dy.com/uploads/allimg/180929/9bd06820f2938c8d.jpg',
+ 'type': '动漫'}
+Traceback (most recent call last):
+  File "/var/www/envpro/lib/python3.5/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/root/lezhangjian/scrapy_doubi/doubiyang/pipelines.py", line 57, in process_item
+    self.conn.execute("insert into ma_filmdetail values('%s','%s','%s','%s')"%(film_name,type,detail_list,img_url))
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '先知' for key 'PRIMARY'")
+2019-04-04 15:26:14 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.1716dy.com/movie/index55001.html> (referer: https://www.1716dy.com/frim/index4-64.html)
+Traceback (most recent call last):
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/root/lezhangjian/scrapy_doubi/doubiyang/spiders/detail.py", line 30, in get_detail
+    detail_list.append(response.xpath('//dd[@class="clearfix"]/ul/li[3]/text()').extract()[0])
+IndexError: list index out of range
+2019-04-04 15:26:19 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.1716dy.com/movie/index31868.html> (referer: https://www.1716dy.com/frim/index4-67.html)
+Traceback (most recent call last):
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/root/lezhangjian/scrapy_doubi/doubiyang/spiders/detail.py", line 30, in get_detail
+    detail_list.append(response.xpath('//dd[@class="clearfix"]/ul/li[3]/text()').extract()[0])
+IndexError: list index out of range
+2019-04-04 15:26:21 [scrapy.core.scraper] ERROR: Error processing {'detail': '["内详", "内详", "大陆", "动漫", "国语", "2017"]',
+ 'film_name': '星原小宝',
+ 'img_url': 'https://www.1716dy.comhttps://www.1716dy.com/uploads/allimg/180929/8855db6f52e5d509.jpg',
+ 'type': '动漫'}
+Traceback (most recent call last):
+  File "/var/www/envpro/lib/python3.5/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/root/lezhangjian/scrapy_doubi/doubiyang/pipelines.py", line 57, in process_item
+    self.conn.execute("insert into ma_filmdetail values('%s','%s','%s','%s')"%(film_name,type,detail_list,img_url))
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '星原小宝' for key 'PRIMARY'")
+2019-04-04 15:26:27 [scrapy.core.scraper] ERROR: Error processing {'detail': '["张磊 林子杰 吴文伦 童自荣 刘九容 吴迪 刘北辰 赵乾景 周帅", "田晓鹏", "大陆", "动漫 动作片", "国语", '
+           '"2015"]',
+ 'film_name': '西游记之大圣归来',
+ 'img_url': 'https://www.1716dy.comhttps://www.1716dy.com/uploads/allimg/181114/cfe673a44866e066.jpg',
+ 'type': '动漫'}
+Traceback (most recent call last):
+  File "/var/www/envpro/lib/python3.5/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/root/lezhangjian/scrapy_doubi/doubiyang/pipelines.py", line 57, in process_item
+    self.conn.execute("insert into ma_filmdetail values('%s','%s','%s','%s')"%(film_name,type,detail_list,img_url))
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '西游记之大圣归来' for key 'PRIMARY'")
+2019-04-04 15:26:28 [scrapy.core.scraper] ERROR: Error processing {'detail': '["内详", "内详", "日本", "动漫", "日语", "2017"]',
+ 'film_name': '魔卡少女樱 透明牌篇 OAD-- 序章 小樱与两只小',
+ 'img_url': 'https://www.1716dy.comhttps://www.1716dy.com/uploads/allimg/181114/fba5a452ee400924.jpg',
+ 'type': '动漫'}
+Traceback (most recent call last):
+  File "/var/www/envpro/lib/python3.5/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/root/lezhangjian/scrapy_doubi/doubiyang/pipelines.py", line 57, in process_item
+    self.conn.execute("insert into ma_filmdetail values('%s','%s','%s','%s')"%(film_name,type,detail_list,img_url))
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '魔卡少女樱 透明牌篇 OAD-- 序章 小樱与两只小' for key 'PRIMARY'")
+2019-04-04 15:26:29 [scrapy.core.scraper] ERROR: Error processing {'detail': '["内详", "内详", "日本", "动漫", "日语", "2017"]',
+ 'film_name': '魔卡少女樱 透明牌篇 OAD-- 序章 小樱与两只小',
+ 'img_url': 'https://www.1716dy.comhttps://www.1716dy.com/uploads/allimg/181130/65e9c781279e1cd3.jpg',
+ 'type': '动漫'}
+Traceback (most recent call last):
+  File "/var/www/envpro/lib/python3.5/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/root/lezhangjian/scrapy_doubi/doubiyang/pipelines.py", line 57, in process_item
+    self.conn.execute("insert into ma_filmdetail values('%s','%s','%s','%s')"%(film_name,type,detail_list,img_url))
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '魔卡少女樱 透明牌篇 OAD-- 序章 小樱与两只小' for key 'PRIMARY'")
+2019-04-04 15:26:53 [scrapy.core.scraper] ERROR: Error processing {'detail': '["内详", "内详", "大陆", "动漫", "国语", "2018"]',
+ 'film_name': '[麦子]童年经典系列~骚气回顾《光能使者》回',
+ 'img_url': 'https://www.1716dy.comhttps://www.1716dy.com/uploads/allimg/181114/7e34c4616431fa5c.jpg',
+ 'type': '动漫'}
+Traceback (most recent call last):
+  File "/var/www/envpro/lib/python3.5/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/root/lezhangjian/scrapy_doubi/doubiyang/pipelines.py", line 57, in process_item
+    self.conn.execute("insert into ma_filmdetail values('%s','%s','%s','%s')"%(film_name,type,detail_list,img_url))
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '[麦子]童年经典系列~骚气回顾《光能使者》回' for key 'PRIMARY'")
+2019-04-04 15:26:54 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.1716dy.com/movie/index63492.html> (referer: https://www.1716dy.com/frim/index4-85.html)
+Traceback (most recent call last):
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/root/lezhangjian/scrapy_doubi/doubiyang/spiders/detail.py", line 30, in get_detail
+    detail_list.append(response.xpath('//dd[@class="clearfix"]/ul/li[3]/text()').extract()[0])
+IndexError: list index out of range
+2019-04-04 15:26:55 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.1716dy.com/movie/index64165.html> (referer: https://www.1716dy.com/frim/index4-85.html)
+Traceback (most recent call last):
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/root/lezhangjian/scrapy_doubi/doubiyang/spiders/detail.py", line 36, in get_detail
+    img_url = 'https://www.1716dy.comhttps://www.1716dy.com'+re.search(r'url\((.*?)\)',img_url).group(1)
+AttributeError: 'NoneType' object has no attribute 'group'
+2019-04-04 15:27:07 [scrapy.core.scraper] ERROR: Error processing {'detail': '["比尔·斯卡斯加德 斯特兰·斯卡斯加德 艾丽西亚·维坎德", "Ira Carpelan / Jakub Wronski", '
+           '"芬兰/波", "动漫", "英语", "2017"]',
+ 'film_name': '姆明与冬日仙境',
+ 'img_url': 'https://www.1716dy.comhttps://www.1716dy.com/uploads/allimg/181130/7bc96b69aec1cad5.jpg',
+ 'type': '动漫'}
+Traceback (most recent call last):
+  File "/var/www/envpro/lib/python3.5/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/root/lezhangjian/scrapy_doubi/doubiyang/pipelines.py", line 57, in process_item
+    self.conn.execute("insert into ma_filmdetail values('%s','%s','%s','%s')"%(film_name,type,detail_list,img_url))
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '姆明与冬日仙境' for key 'PRIMARY'")
+2019-04-04 15:27:09 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.1716dy.com/movie/index56062.html> (referer: https://www.1716dy.com/frim/index4-92.html)
+Traceback (most recent call last):
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/root/lezhangjian/scrapy_doubi/doubiyang/spiders/detail.py", line 30, in get_detail
+    detail_list.append(response.xpath('//dd[@class="clearfix"]/ul/li[3]/text()').extract()[0])
+IndexError: list index out of range
+2019-04-04 15:27:10 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.1716dy.com/movie/index62472.html> (referer: https://www.1716dy.com/frim/index4-93.html)
+Traceback (most recent call last):
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/root/lezhangjian/scrapy_doubi/doubiyang/spiders/detail.py", line 30, in get_detail
+    detail_list.append(response.xpath('//dd[@class="clearfix"]/ul/li[3]/text()').extract()[0])
+IndexError: list index out of range
+2019-04-04 15:27:17 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.1716dy.com/movie/index51800.html> (referer: https://www.1716dy.com/frim/index4-96.html)
+Traceback (most recent call last):
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/root/lezhangjian/scrapy_doubi/doubiyang/spiders/detail.py", line 30, in get_detail
+    detail_list.append(response.xpath('//dd[@class="clearfix"]/ul/li[3]/text()').extract()[0])
+IndexError: list index out of range
+2019-04-04 15:27:26 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.1716dy.com/movie/index51802.html> (referer: https://www.1716dy.com/frim/index4-101.html)
+Traceback (most recent call last):
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/root/lezhangjian/scrapy_doubi/doubiyang/spiders/detail.py", line 30, in get_detail
+    detail_list.append(response.xpath('//dd[@class="clearfix"]/ul/li[3]/text()').extract()[0])
+IndexError: list index out of range
+2019-04-04 15:27:30 [scrapy.core.scraper] ERROR: Error processing {'detail': '["高晓松 易小星 白客 季冠霖", "王微", "大陆", "动漫 喜剧片", "国语", "2016"]',
+ 'film_name': '小门神',
+ 'img_url': 'https://www.1716dy.comhttps://www.1716dy.com/uploads/allimg/181130/829c85aaf745531d.jpg',
+ 'type': '动漫'}
+Traceback (most recent call last):
+  File "/var/www/envpro/lib/python3.5/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/root/lezhangjian/scrapy_doubi/doubiyang/pipelines.py", line 57, in process_item
+    self.conn.execute("insert into ma_filmdetail values('%s','%s','%s','%s')"%(film_name,type,detail_list,img_url))
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '小门神' for key 'PRIMARY'")
+2019-04-04 15:27:32 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.1716dy.com/movie/index55002.html> (referer: https://www.1716dy.com/frim/index4-104.html)
+Traceback (most recent call last):
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/root/lezhangjian/scrapy_doubi/doubiyang/spiders/detail.py", line 30, in get_detail
+    detail_list.append(response.xpath('//dd[@class="clearfix"]/ul/li[3]/text()').extract()[0])
+IndexError: list index out of range
+2019-04-04 15:27:34 [scrapy.core.scraper] ERROR: Error processing {'detail': '["内详", "张亨允", "韩国", "动漫 科幻片", "韩语对白", "2014"]',
+ 'film_name': '卫星女孩和奶牛',
+ 'img_url': 'https://www.1716dy.comhttps://www.1716dy.com/uploads/allimg/181130/cf2cf36fa293b43c.jpg',
+ 'type': '动漫'}
+Traceback (most recent call last):
+  File "/var/www/envpro/lib/python3.5/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/root/lezhangjian/scrapy_doubi/doubiyang/pipelines.py", line 57, in process_item
+    self.conn.execute("insert into ma_filmdetail values('%s','%s','%s','%s')"%(film_name,type,detail_list,img_url))
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '卫星女孩和奶牛' for key 'PRIMARY'")
+2019-04-04 15:27:34 [scrapy.core.scraper] ERROR: Error processing {'detail': '["季冠霖 苏尚卿 许魏洲 金士杰 杨婷 潘淑兰 九儿", "梁旋", "大陆", "动漫 剧情片", "国语", "2016"]',
+ 'film_name': '大鱼海棠',
+ 'img_url': 'https://www.1716dy.comhttps://www.1716dy.com/uploads/allimg/181130/045c1afe2fa8120c.jpg',
+ 'type': '动漫'}
+Traceback (most recent call last):
+  File "/var/www/envpro/lib/python3.5/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/root/lezhangjian/scrapy_doubi/doubiyang/pipelines.py", line 57, in process_item
+    self.conn.execute("insert into ma_filmdetail values('%s','%s','%s','%s')"%(film_name,type,detail_list,img_url))
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '大鱼海棠' for key 'PRIMARY'")
+2019-04-04 15:27:38 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.1716dy.com/movie/index57163.html> (referer: https://www.1716dy.com/frim/index4-107.html)
+Traceback (most recent call last):
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/root/lezhangjian/scrapy_doubi/doubiyang/spiders/detail.py", line 30, in get_detail
+    detail_list.append(response.xpath('//dd[@class="clearfix"]/ul/li[3]/text()').extract()[0])
+IndexError: list index out of range
+2019-04-04 15:27:40 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.1716dy.com/movie/index56765.html> (referer: https://www.1716dy.com/frim/index4-108.html)
+Traceback (most recent call last):
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/root/lezhangjian/scrapy_doubi/doubiyang/spiders/detail.py", line 30, in get_detail
+    detail_list.append(response.xpath('//dd[@class="clearfix"]/ul/li[3]/text()').extract()[0])
+IndexError: list index out of range
+2019-04-04 15:27:45 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.1716dy.com/movie/index55971.html> (referer: https://www.1716dy.com/frim/index4-111.html)
+Traceback (most recent call last):
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/root/lezhangjian/scrapy_doubi/doubiyang/spiders/detail.py", line 36, in get_detail
+    img_url = 'https://www.1716dy.comhttps://www.1716dy.com'+re.search(r'url\((.*?)\)',img_url).group(1)
+AttributeError: 'NoneType' object has no attribute 'group'
+2019-04-04 15:27:45 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.1716dy.com/movie/index55973.html> (referer: https://www.1716dy.com/frim/index4-111.html)
+Traceback (most recent call last):
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/root/lezhangjian/scrapy_doubi/doubiyang/spiders/detail.py", line 36, in get_detail
+    img_url = 'https://www.1716dy.comhttps://www.1716dy.com'+re.search(r'url\((.*?)\)',img_url).group(1)
+AttributeError: 'NoneType' object has no attribute 'group'
+2019-04-04 15:27:50 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.1716dy.com/movie/index55294.html> (referer: https://www.1716dy.com/frim/index4-113.html)
+Traceback (most recent call last):
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/root/lezhangjian/scrapy_doubi/doubiyang/spiders/detail.py", line 30, in get_detail
+    detail_list.append(response.xpath('//dd[@class="clearfix"]/ul/li[3]/text()').extract()[0])
+IndexError: list index out of range
+2019-04-04 15:27:50 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.1716dy.com/movie/index55295.html> (referer: https://www.1716dy.com/frim/index4-113.html)
+Traceback (most recent call last):
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/root/lezhangjian/scrapy_doubi/doubiyang/spiders/detail.py", line 30, in get_detail
+    detail_list.append(response.xpath('//dd[@class="clearfix"]/ul/li[3]/text()').extract()[0])
+IndexError: list index out of range
+2019-04-04 15:27:52 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.1716dy.com/movie/index31955.html> (referer: https://www.1716dy.com/frim/index4-114.html)
+Traceback (most recent call last):
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/root/lezhangjian/scrapy_doubi/doubiyang/spiders/detail.py", line 30, in get_detail
+    detail_list.append(response.xpath('//dd[@class="clearfix"]/ul/li[3]/text()').extract()[0])
+IndexError: list index out of range
+2019-04-04 15:27:59 [scrapy.core.scraper] ERROR: Error processing {'detail': '["山谷祥生 雨宮天 细谷佳正", "岩崎太郎", "日本", "动漫", "日语对白", "2014"]',
+ 'film_name': '一周的朋友',
+ 'img_url': 'https://www.1716dy.comhttps://www.1716dy.com/uploads/allimg/181203/c4f199a3fa4a6ebd.jpg',
+ 'type': '动漫'}
+Traceback (most recent call last):
+  File "/var/www/envpro/lib/python3.5/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/root/lezhangjian/scrapy_doubi/doubiyang/pipelines.py", line 57, in process_item
+    self.conn.execute("insert into ma_filmdetail values('%s','%s','%s','%s')"%(film_name,type,detail_list,img_url))
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '一周的朋友' for key 'PRIMARY'")
+2019-04-04 15:28:00 [scrapy.core.scraper] ERROR: Error processing {'detail': '["高橋李依 菅原慎介 大橋彩香", "内详", "日本", "动漫", "日语", "2017"]',
+ 'film_name': '骑士&魔法',
+ 'img_url': 'https://www.1716dy.comhttps://www.1716dy.com/uploads/allimg/181203/ffda61365408bc14.jpg',
+ 'type': '动漫'}
+Traceback (most recent call last):
+  File "/var/www/envpro/lib/python3.5/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/root/lezhangjian/scrapy_doubi/doubiyang/pipelines.py", line 57, in process_item
+    self.conn.execute("insert into ma_filmdetail values('%s','%s','%s','%s')"%(film_name,type,detail_list,img_url))
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '骑士&魔法' for key 'PRIMARY'")
+2019-04-04 15:28:07 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.1716dy.com/movie/index52007.html> (referer: https://www.1716dy.com/frim/index4-122.html)
+Traceback (most recent call last):
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/root/lezhangjian/scrapy_doubi/doubiyang/spiders/detail.py", line 30, in get_detail
+    detail_list.append(response.xpath('//dd[@class="clearfix"]/ul/li[3]/text()').extract()[0])
+IndexError: list index out of range
+2019-04-04 15:28:08 [scrapy.core.scraper] ERROR: Error processing {'detail': '["陈益汉 柳孝荣 李善镐", "金大镇", "韩国", "动漫", "韩剧", "2016"]',
+ 'film_name': '恋爱暴君2017',
+ 'img_url': 'https://www.1716dy.comhttps://www.1716dy.com/uploads/allimg/181203/a686472275ab57a4.jpg',
+ 'type': '动漫'}
+Traceback (most recent call last):
+  File "/var/www/envpro/lib/python3.5/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/root/lezhangjian/scrapy_doubi/doubiyang/pipelines.py", line 57, in process_item
+    self.conn.execute("insert into ma_filmdetail values('%s','%s','%s','%s')"%(film_name,type,detail_list,img_url))
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '恋爱暴君2017' for key 'PRIMARY'")
+2019-04-04 15:28:13 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.1716dy.com/movie/index49865.html> (referer: https://www.1716dy.com/frim/index4-125.html)
+Traceback (most recent call last):
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/root/lezhangjian/scrapy_doubi/doubiyang/spiders/detail.py", line 30, in get_detail
+    detail_list.append(response.xpath('//dd[@class="clearfix"]/ul/li[3]/text()').extract()[0])
+IndexError: list index out of range
+2019-04-04 15:28:14 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.1716dy.com/movie/index37058.html> (referer: https://www.1716dy.com/frim/index4-126.html)
+Traceback (most recent call last):
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/root/lezhangjian/scrapy_doubi/doubiyang/spiders/detail.py", line 36, in get_detail
+    img_url = 'https://www.1716dy.comhttps://www.1716dy.com'+re.search(r'url\((.*?)\)',img_url).group(1)
+AttributeError: 'NoneType' object has no attribute 'group'
+2019-04-04 15:28:14 [scrapy.core.scraper] ERROR: Error processing {'detail': '["Aleksandr Palamishev", "亚历山大·彼德洛夫", "俄罗斯", "动漫", "俄语", "2006"]',
+ 'film_name': '初恋',
+ 'img_url': 'https://www.1716dy.comhttps://www.1716dy.com/uploads/allimg/201888/5938.jpg',
+ 'type': '动漫'}
+Traceback (most recent call last):
+  File "/var/www/envpro/lib/python3.5/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/root/lezhangjian/scrapy_doubi/doubiyang/pipelines.py", line 57, in process_item
+    self.conn.execute("insert into ma_filmdetail values('%s','%s','%s','%s')"%(film_name,type,detail_list,img_url))
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '初恋' for key 'PRIMARY'")
+2019-04-04 15:28:15 [scrapy.core.scraper] ERROR: Error processing {'detail': '["贾斯汀·弗莱彻 约翰·斯帕克斯", "马克·伯顿 Richard Starzack", "英国 法", "动漫 喜剧片", '
+           '"内详", "2015"]',
+ 'film_name': '小羊肖恩',
+ 'img_url': 'https://www.1716dy.comhttps://www.1716dy.com/uploads/allimg/160314/c6d2559a7dddefc3.gif',
+ 'type': '动漫'}
+Traceback (most recent call last):
+  File "/var/www/envpro/lib/python3.5/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/root/lezhangjian/scrapy_doubi/doubiyang/pipelines.py", line 57, in process_item
+    self.conn.execute("insert into ma_filmdetail values('%s','%s','%s','%s')"%(film_name,type,detail_list,img_url))
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '小羊肖恩' for key 'PRIMARY'")
+2019-04-04 15:29:19 [scrapy.core.scraper] ERROR: Error processing {'detail': '["宫下雄也 星野贵纪 洞内爱 寺崎裕香 浅沼晋太郎", "小野胜巳 菱川直树", "日本", "动漫", "内详", '
+           '"2008"]',
+ 'film_name': "游戏王5D's 激斗进化 动漫",
+ 'img_url': 'https://www.1716dy.comhttps://www.1716dy.com/uploads/allimg/201888/20229.jpg',
+ 'type': '动漫'}
+Traceback (most recent call last):
+  File "/var/www/envpro/lib/python3.5/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/root/lezhangjian/scrapy_doubi/doubiyang/pipelines.py", line 57, in process_item
+    self.conn.execute("insert into ma_filmdetail values('%s','%s','%s','%s')"%(film_name,type,detail_list,img_url))
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'s 激斗进化 动漫\',\'动漫\',\'["宫下雄也 星野贵纪 洞内爱 寺崎裕\' at line 1')
+2019-04-04 15:29:21 [scrapy.core.scraper] ERROR: Error processing {'detail': '["宫下雄也 星野贵纪 洞内爱 寺崎裕香 浅沼晋太郎", "小野胜巳 菱川直树", "日本", "动漫", "内详", '
+           '"2008"]',
+ 'film_name': "游戏王5D's 动漫",
+ 'img_url': 'https://www.1716dy.comhttps://www.1716dy.com/uploads/allimg/201888/20231.jpg',
+ 'type': '动漫'}
+Traceback (most recent call last):
+  File "/var/www/envpro/lib/python3.5/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/root/lezhangjian/scrapy_doubi/doubiyang/pipelines.py", line 57, in process_item
+    self.conn.execute("insert into ma_filmdetail values('%s','%s','%s','%s')"%(film_name,type,detail_list,img_url))
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'s 动漫\',\'动漫\',\'["宫下雄也 星野贵纪 洞内爱 寺崎裕香 浅沼晋\' at line 1')
+2019-04-04 15:29:22 [scrapy.core.scraper] ERROR: Error processing {'detail': '["佐久间红美 樱井孝宏 仲西环 石田彰 河原木志穗", "杜野幼青", "日本", "动漫", "内详", "2002"]',
+ 'film_name': "I's 夏日物语 动漫",
+ 'img_url': 'https://www.1716dy.comhttps://www.1716dy.com/uploads/allimg/201888/20177.jpg',
+ 'type': '动漫'}
+Traceback (most recent call last):
+  File "/var/www/envpro/lib/python3.5/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/root/lezhangjian/scrapy_doubi/doubiyang/pipelines.py", line 57, in process_item
+    self.conn.execute("insert into ma_filmdetail values('%s','%s','%s','%s')"%(film_name,type,detail_list,img_url))
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'s 夏日物语 动漫\',\'动漫\',\'["佐久间红美 樱井孝宏 仲西环 石田\' at line 1')
+2019-04-04 15:29:31 [scrapy.core.scraper] ERROR: Error processing {'detail': '["田村由加莉 水树奈奈 浅野真澄 钉宮理恵 桑谷夏子", "草川启造", "日本", "动漫", "内详", "2012"]',
+ 'film_name': "魔法少女奈叶The MOVIE 2nd A's 动漫",
+ 'img_url': 'https://www.1716dy.comhttps://www.1716dy.com/uploads/allimg/201888/20000.jpg',
+ 'type': '动漫'}
+Traceback (most recent call last):
+  File "/var/www/envpro/lib/python3.5/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/root/lezhangjian/scrapy_doubi/doubiyang/pipelines.py", line 57, in process_item
+    self.conn.execute("insert into ma_filmdetail values('%s','%s','%s','%s')"%(film_name,type,detail_list,img_url))
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'s 动漫\',\'动漫\',\'["田村由加莉 水树奈奈 浅野真澄 钉宮理恵 桑\' at line 1')
+2019-04-04 15:29:38 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.1716dy.com/movie/index19804.html> (referer: https://www.1716dy.com/frim/index4-169.html)
+Traceback (most recent call last):
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/root/lezhangjian/scrapy_doubi/doubiyang/spiders/detail.py", line 30, in get_detail
+    detail_list.append(response.xpath('//dd[@class="clearfix"]/ul/li[3]/text()').extract()[0])
+IndexError: list index out of range
+2019-04-04 15:29:40 [scrapy.core.scraper] ERROR: Error processing {'detail': '["Teri SNELGROVE Dave KELLY Jonathon LOVE", "Oumar N\'DIAYE", '
+           '"美国", "动漫", "内详", "2002"]',
+ 'film_name': '马戏奇缘 动漫',
+ 'img_url': 'https://www.1716dy.comhttps://www.1716dy.com/uploads/allimg/201888/19782.jpg',
+ 'type': '动漫'}
+Traceback (most recent call last):
+  File "/var/www/envpro/lib/python3.5/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/root/lezhangjian/scrapy_doubi/doubiyang/pipelines.py", line 57, in process_item
+    self.conn.execute("insert into ma_filmdetail values('%s','%s','%s','%s')"%(film_name,type,detail_list,img_url))
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/var/www/envpro/lib/python3.5/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'DIAYE", "美国", "动漫", "内详", "2002"]\',\'https://www.1716dy.comhttps://ww\' at line 1')
+2019-04-04 15:31:26 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.1716dy.com/movie/index17541.html> (referer: https://www.1716dy.com/frim/index4-224.html)
+Traceback (most recent call last):
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/root/lezhangjian/scrapy_doubi/doubiyang/spiders/detail.py", line 30, in get_detail
+    detail_list.append(response.xpath('//dd[@class="clearfix"]/ul/li[3]/text()').extract()[0])
+IndexError: list index out of range
+2019-04-04 15:31:46 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.1716dy.com/movie/index17119.html> (referer: https://www.1716dy.com/frim/index4-234.html)
+Traceback (most recent call last):
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/root/lezhangjian/scrapy_doubi/doubiyang/spiders/detail.py", line 30, in get_detail
+    detail_list.append(response.xpath('//dd[@class="clearfix"]/ul/li[3]/text()').extract()[0])
+IndexError: list index out of range
+2019-04-04 15:31:47 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.1716dy.com/movie/index17081.html> (referer: https://www.1716dy.com/frim/index4-235.html)
+Traceback (most recent call last):
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/var/www/envpro/lib/python3.5/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/root/lezhangjian/scrapy_doubi/doubiyang/spiders/detail.py", line 30, in get_detail
+    detail_list.append(response.xpath('//dd[@class="clearfix"]/ul/li[3]/text()').extract()[0])
+IndexError: list index out of range
